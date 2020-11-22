@@ -1,6 +1,6 @@
 import { Config } from "./";
-import Yasr from "@triply/yasr";
-import { default as Yasqe } from "@triply/yasqe";
+import Yasr from "@sral/yasr";
+import { default as Yasqe } from "@sral/yasqe";
 import { CatalogueItem } from "./endpointSelect";
 
 export default function initialize(): Config<CatalogueItem> {

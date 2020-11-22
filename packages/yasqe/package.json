@@ -1,12 +1,12 @@
 {
-  "name": "@triply/yasqe",
+  "name": "@sral/yasqe",
   "description": "Yet Another SPARQL Query Editor",
   "version": "4.2.1",
   "main": "build/yasqe.min.js",
   "types": "build/ts/src/index.d.ts",
   "license": "MIT",
   "author": "Laurens Rietveld",
-  "homepage": "https://github.com/TriplyDB/yasgui",
+  "homepage": "https://github.com/larsw/yasgui",
   "engines": {
     "node": ">= 8"
   },
@@ -19,21 +19,25 @@
   ],
   "maintainers": [
     {
+      "name": "Lars Wilhelmsen",
+      "email": "lars@sral.org"
+    },
+    {
       "name": "Laurens Rietveld",
       "email": "laurens.rietveld@triply.cc",
       "web": "https://triply.cc"
     }
   ],
-  "bugs": "https://github.com/TriplyDB/yasgui/issues/",
+  "bugs": "https://github.com/larsw/yasgui/issues/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TriplyDB/yasgui.git"
+    "url": "https://github.com/larsw/yasgui.git"
   },
   "scripts": {
     "prepublishOnly": "./../../bin/checkPackageVersions.sh"
   },
   "dependencies": {
-    "@triply/yasgui-utils": "^4.2.1",
+    "@sral/yasgui-utils": "^4.2.1",
     "@types/lodash-es": "^4.17.3",
     "codemirror": "^5.51.0",
     "lodash-es": "^4.17.15",
@@ -41,7 +45,7 @@
     "superagent": "5.3.1"
   },
   "peerDependencies": {
-    "@triply/yasgui": "4.x"
+    "@sral/yasgui": "4.x"
   },
   "devDependencies": {
     "@types/codemirror": "0.0.97",

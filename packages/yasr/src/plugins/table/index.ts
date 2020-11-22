@@ -10,7 +10,7 @@ import Parser from "../../parsers";
 import { escape } from "lodash-es";
 import { Plugin, DownloadInfo } from "../";
 import Yasr from "../../";
-import { drawSvgStringAsElement, drawFontAwesomeIconAsSvg, addClass, removeClass } from "@triply/yasgui-utils";
+import { drawSvgStringAsElement, drawFontAwesomeIconAsSvg, addClass, removeClass } from "@sral/yasgui-utils";
 import * as faTableIcon from "@fortawesome/free-solid-svg-icons/faTable";
 
 const ColumnResizer = require("column-resizer");

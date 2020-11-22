@@ -15,7 +15,7 @@ require("codemirror/mode/xml/xml.js");
 
 require("codemirror/mode/javascript/javascript.js");
 require("codemirror/lib/codemirror.css");
-import { drawSvgStringAsElement, addClass, removeClass, drawFontAwesomeIconAsSvg } from "@triply/yasgui-utils";
+import { drawSvgStringAsElement, addClass, removeClass, drawFontAwesomeIconAsSvg } from "@sral/yasgui-utils";
 import * as faAlignIcon from "@fortawesome/free-solid-svg-icons/faAlignLeft";
 
 import * as imgs from "../../imgs";

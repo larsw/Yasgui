@@ -1,4 +1,4 @@
-import { Storage as YStorage } from "@triply/yasgui-utils";
+import { Storage as YStorage } from "@sral/yasgui-utils";
 import Yasgui from "./";
 import * as Tab from "./Tab";
 export var storageNamespace = "triply";
