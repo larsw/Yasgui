@@ -44,6 +44,6 @@ Run `yarn run build`. It'll store the transpiled js/css files in the `build` dir
 
 ## License
 
-This software is written by Triply with minor done by Lars Wilhelmsen.
+This software is written by Triply with minor modifications done by Lars Wilhelmsen.
 
 This code is released under the MIT license.
